@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Make a booking</title>
+        <title>Menu</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/my-css.css">
@@ -16,39 +16,104 @@
                         HAUKAI<span class="logo2">Restaurant</span></h1>
                 </a>
             </header>
-                <nav>
-                    <input type="checkbox" id="hamburger-input" class="burger-shower" >
-                    <label id="hamburger-menu" for="hamburger-input">
-                        <span id="sidebar-menu">
-                            <a href="menu.html">Menu</a>
-                            <a href="reservations.html">Make a reservation</a>
-                            <a href="hours.html">Hours</a>
-                            <a href="contact.html">Contact &amp; Location</a>
-                            <a href="stafflogin.html">Staff Login</a>
-                        </span>
-                    </label>
-                    <div class="overlay"></div>
-                    <div id="desktop-menu">
+            <nav>
+                <input type="checkbox" id="hamburger-input" class="burger-shower">
+                <label id="hamburger-menu" for="hamburger-input">
+                    <span id="sidebar-menu">
                         <a href="menu.html">Menu</a>
                         <a href="reservations.html">Make a reservation</a>
                         <a href="hours.html">Hours</a>
                         <a href="contact.html">Contact &amp; Location</a>
                         <a href="stafflogin.html">Staff Login</a>
-                    </div>
-                </nav>
+                    </span>
+                </label>
+                <div class="overlay"></div>
+                <div id="desktop-menu">
+                    <a href="menu.html">Menu</a>
+                    <a href="reservations.html">Make a reservation</a>
+                    <a href="hours.html">Hours</a>
+                    <a href="contact.html">Contact &amp; Location</a>
+                    <a href="stafflogin.html">Staff Login</a>
+                </div>
+            </nav>   
         </div>
-        <main id="main-booking">
-            <div class="div2">
-                <h2>Booking Information</h2>
-                <p>Please fill the form below to make a booking. You will be contacted back to confirm your reservation.
-                <br>
-                We ask that you contact us directly if your party is larger than 10 guests (see our <a href="contact.html">contact page</a>).
-                <br>
-                We can accomodate most diets if given at least 24h notice. If you have an allergy, please notify the staff before ordering.
-                </p>
+        <main>
+            <br>
+            <a href="images/AS1_Menu.pdf" id="pdf"  target="_blank">View the menu in pdf</a>
+            <h2 id="appetizers">Appetizers</h2>
+            <ul class="menu">
+                <li>Rewena Bread <span class="price">16</span>
+                <i>Traditional M&amacr;ori bread</i></li><li>Paua Fritter <span class="price">16</span>
+                <i>Finely diced pieces of paua, served with a side salad and horopito dressing</i></li><li>Raw Fish <span class="price">20</span>
+                <i>Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions</i></li><li>Poached Salmon <span class="price">22</span>
+                <i>Salmon poached in an orange and pistachio glaze, served with rewena bread</i></li><li>Seafood Basket <span class="price">25</span>
+                <i>Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns</i></li>
+            </ul>
+            <hr>
+            <h2 id="main">Main</h2>
+            <ul class="menu">
+                <li>Fish of the day <span class="price">25</span>
+                <i>Beer-battered fish and kumara fries, served with a side salad and homemaid tartar</i></li><li>Mussels and Scallops <span class="price">30</span>
+                <i>Steamed mussel & scallop mousse, honey and soy broth</i></li><li>Seafood Chowder <span class="price">20</span>
+                <i>Creamy chowder filled with tarakihi, prawn, hoki, scallops and mussels, served with flatbread</i></li><li>Pork Belly <span class="price">30</span>
+                <i>Slow-cooked pork belly served on a bed of apple slaw with roasted kumara and crispy noodles</i></li><li>Lamb Steak <span class="price">33</span>
+                <i>New Zealand lamb coated in a kawakawa crumb, served with Dijon-mustard-glazed carrots, roasted butternut squash and mushroom jus</i></li><li>Venison <span class="price">33</span>
+                <i>Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine jus.</i></li>
+            </ul>
+            <hr>
+            <h2 id="dessert">Dessert</h2>
+            <ul class="menu">
+                <li>Kapiti Ice Cream <span class="price">10</span>
+                <i>Check for daily specials.</i></li><li>Steamed Pudding <span class="price">12</span>
+                <i>Golden-syrup-flavoured steamed pudding, served with vanilla ice cream</i></li><li>Mini Pavlova <span class="price">20</span>
+                <i>Mini pavlova, served with kawakawa and lemon-infused cream and fresh fruit</i></li>
+                <li>Banoffee Pie <span class="price">16</span>
+                <i>Toffee, fresh bananas and fresh cream</i></li>
+            </ul>
+            <hr>
+            <h2 id="beverages">Beverages</h2>
+            <h3>Red</h3>
+            <div class="menu">
+                Terrace Edge Pinot Noir, 2012, Wairarapa <span class="price">53/13</span>
+                Altitude Pinot Noir, 2010, Marlborough <span class="price">64/15</span>
+                Greystone Pinot Noir, 2012, Wairarapa <span class="price">73/17</span>
+                Terrace Edge, Syrah, 2012, Wairarapa <span class="price">53/13</span>
+                Altitude Syrah, 2010, Marlborough <span class="price">64/15</span>
+                Greystone Syrah, 2012, Wairarapa <span class="price">73/17</span>
+                Pegasus Bay Merlot, 2013, Waipara <span class="price">65/14</span>
+                Pegasus Bay Pinot Noir, 2013, Waipara <span class="price">110</span>
             </div>
-            <div class="div1">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeCELcmMVJhHKRRZVVRiUau_yx9NBhdD3U-V4Pw0sIyAj6_Sw/viewform?embedded=true"></iframe>
+            <br>
+            <h3>White</h3>
+            <div class="menu">
+                Spade Oak Pinot Gris, 2011, Gisborne <span class="price">40/10</span>
+                Maude Pinot Gris, 2017, Otago <span class="price">49.50/11</span>
+                Charles Wiffen Chardonnay, 2013, Otago <span class="price">48/11</span>
+                Amisfield, Riesling, 2016, Otago <span class="price">53/12</span>
+                Lamont Riesling, 2010, Otago <span class="price">57/13</span>
+                Elephant Hill Viognier, 2013, Hawke’s Bay <span class="price">55/12</span>
+                Folium Sauvignon Blanc, 2011, Marlborough <span class="price">52/11</span>
+                Billecart-Salmon Brut Reserve, France <span class="price">120</span>
+            </div>
+            <br>
+            <h3>Beer and Cider</h3>
+            <div class="menu">
+                Garage project range <span class="price">11</span>
+                Tuatara range <span class="price">11</span>
+                Panhead range <span class="price">10</span>
+                Coopers ale <span class="price">10</span>
+                Heineken <span class="price">11</span>
+                Moa Cider <span class="price">10</span>
+                Crooked Cider <span class="price">10</span>
+            </div>
+            <br>
+            <h3>Non-Alcoholic</h3>
+            <div class="menu">
+                Mineral Water <span class="price">4</span>
+                Soft Drinks <span class="price">4</span>
+                Juice <span class="price">4</span>
+                Coffee <span class="price">4.5</span>
+                Tea <span class="price">3.5</span>
             </div>
         </main>
         <footer>
