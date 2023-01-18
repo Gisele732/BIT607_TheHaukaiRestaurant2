@@ -87,12 +87,13 @@ h1, h2, h3{
 /* main styling */
 
 p, h2, address{
-    padding-left: 20px;
+    padding: 0 20px 0 20px;
 }
 
 #main-home{
     background-image: url(..//images/restaurant.jpg);
     background-size: cover;
+    background-position: center;
     padding: 50px 10px 480px 10px;
     text-shadow: 1px 1px 2px #DEE4E6;
 }
@@ -145,6 +146,10 @@ main, footer{
         margin: 10px;
     }
 
+    .menu li{
+        list-style: none;
+    }
+
     .price{
         font-size: smaller;
         font-weight: bold;
@@ -189,11 +194,11 @@ footer{
         padding: 10px;
     }
         .disclaimers a{
-            color: #968066;
+            color: #566C6F;
             text-decoration: none;
         }
         .disclaimers a:hover{
-            color: #566C6F;
+            text-decoration: underline;
         }
 
     footer img{
