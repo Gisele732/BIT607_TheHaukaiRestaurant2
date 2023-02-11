@@ -6,7 +6,7 @@ body{
     font-family: Calibri, sans-serif;
     margin: 0;
 }
-
+/*AS3 Flexbox example #1 */
 .top{
     display: flex;
     flex-direction: row;
@@ -30,7 +30,7 @@ header a{
 header h1:hover{
     color:#968066;
 }
-
+/*AS3 Flexbox example #2 */
 header h1{
     display: flex;
     flex-direction: column;
@@ -38,6 +38,7 @@ header h1{
 }
 
 /* navigation styling */
+/*AS3 Flexbox example #3 */
 nav {
     overflow: hidden;
     background-color: #DEE4E6;
@@ -98,6 +99,7 @@ p, h2, address{
     text-shadow: 1px 1px 2px #DEE4E6;
 }
 
+/*AS3 Flexbox example #4 */
 #main-contact, #main-hours, #main-booking{
     display: flex;
 }
@@ -155,7 +157,7 @@ main, footer{
         font-weight: bold;
         color: #BFAD9A;
     }
-
+    /*AS3 Flexbox example #5 */
     #appetizers, #main, #dessert, #beverages{
         display: flex;
         align-items: center;
@@ -181,6 +183,7 @@ main, footer{
             background-image: url('../images/wine.jpg');
         }
 /* styling of footer and its elements */
+/*AS3 Flexbox example #6 */
 footer{
     display: flex;
     flex-direction: row;
@@ -319,7 +322,7 @@ footer{
         text-align: left;
       }    
 /* when displaying on mobile or other small screens, some content will display in columns rather than row for better readability*/ 
-
+/*AS3 Flexbox example #7 */
     #main-contact, #main-hours, #main-booking{
         display: flex;
         flex-direction: column;
